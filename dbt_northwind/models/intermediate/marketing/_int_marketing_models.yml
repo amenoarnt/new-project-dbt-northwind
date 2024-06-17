@@ -1,0 +1,36 @@
+version: 2
+
+models:
+  - name: int_marketing_customers
+    description: "Intermediate table for customer's marketing data"
+    columns:
+      - name: order_id
+        description: "Unique identifier for an order"
+        data_tests:
+          - not_null
+          - unique
+      - name: customer_id
+        description: "Unique identifier for a customer"
+        data_tests:
+          - not_null
+          - unique
+      - name: unit_price
+        description: "Price of a single product"        
+        data_tests:
+          - not_null
+      - name: quantity
+        description: "Quantity of products in the order"
+        data_tests:
+          - not_null
+      - name: discount
+        description: "Discount applied to the order"
+      - name: company_name
+        description: "Name of the company"
+      - name: contat_name
+        description: "Name of the contact person"
+        data_tests:
+          - not_null
+      - name: contact_title
+        description: "Title of the contact person"
+      - name: country
+        description: "Country of the company"
