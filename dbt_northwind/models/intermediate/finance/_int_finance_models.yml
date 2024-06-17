@@ -1,0 +1,23 @@
+version: 2
+
+models:
+  - name: int_finance_orders
+    description: "Intermediate table for order's financials"
+    columns:
+      - name: order_id
+        description: "Unique identifier for an order"
+        data_tests:
+          - not_null
+          - unique
+      - name: order_date
+        description: "Date in which the order was placed"
+        data_tests:
+          - not_null
+      - name: quantity
+        description: "Quantity of products in the order"        
+        data_tests:
+          - not_null
+      - name: discount
+        description: "Discount applied to the order"
+      - name: freight
+        description: "Freight cost of the order"

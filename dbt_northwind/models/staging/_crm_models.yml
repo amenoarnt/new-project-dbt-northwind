@@ -17,4 +17,38 @@ models:
       data_test:
         - not_null
         - unique
+
+  - name: stg_orders
+    column:
+    - name: customer_id
+      description: "Unique identifier for a customer"
+      data_test:
+        - not_null
+        - unique
+    - name: contact_name
+      description: "Name of the company"
+      data_test:
+        - not_null
+    - name: phone
+      description: "Name of the contact person"
+      data_test:
+        - not_null
+        - unique
+
+  - name: stg_order_details
+    column:
+    - name: customer_id
+      description: "Unique identifier for a customer"
+      data_test:
+        - not_null
+        - unique
+    - name: contact_name
+      description: "Name of the company"
+      data_test:
+        - not_null
+    - name: phone
+      description: "Name of the contact person"
+      data_test:
+        - not_null
+        - unique
     
