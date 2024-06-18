@@ -1,10 +1,13 @@
 Welcome to your new dbt project!
 
+![Alt text](dbt_northwind/pics/excalidraw.png)
+
 ### Using the starter project
 
 Try running the following commands:
 - dbt run
 - dbt test
+
 
 
 ### Resources:
