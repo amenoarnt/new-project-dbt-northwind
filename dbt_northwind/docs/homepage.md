@@ -9,7 +9,7 @@ Welcome to dbt Northwind project's docs!
 This project is a part of [Luciano Vasconcelo's course on Data Engineering](https://suajornadadedados.com.br). It's based on the Northwind sample database structure and data provided by Microsoft. The main goal is to apply dbt's features to implement data transformations in a close to real scenario. 
 
 Here's what the Northwind database looks like in it's raw form:
-![image](pics/northwind.png)
+![image](https://raw.githubusercontent.com/amenoarnt/new-project-dbt-northwind/main/dbt_northwind/pics/northwind.png)
 
 
 ## Data Transformation using dbt
@@ -18,7 +18,7 @@ This project is set up on a PostgresSQL database mounted on an AWS RDS instance.
 
 There are 3 layers of data: (i) the staging, which is close to it's raw form; (ii) the intermediate, which is segregated by business area; and (iii) the marts that are ready for the consumers. 
 
-![image](pics/excalidraw.png)
+![image](https://raw.githubusercontent.com/amenoarnt/new-project-dbt-northwind/main/dbt_northwind/pics/excalidraw.png)
 
 ## Further information
 
