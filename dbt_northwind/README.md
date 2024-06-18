@@ -1,6 +1,6 @@
 Welcome to your new dbt project!
 
-![Alt text](dbt_northwind/pics/excalidraw.png)
+![Alt text](pics/excalidraw.png)
 
 ### Using the starter project
 
