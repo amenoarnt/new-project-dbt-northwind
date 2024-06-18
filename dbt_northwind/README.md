@@ -1,4 +1,4 @@
-Welcome to your new dbt project!
+Welcome the dbt-core !
 
 ![Alt text](pics/excalidraw.png)
 

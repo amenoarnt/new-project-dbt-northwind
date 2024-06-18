@@ -4,7 +4,7 @@
 
 Bem-vindo à documentação gerada automaticamente para o seu projeto DBT!
 
-![image](https://suajornadadedados.com.br/wp-content/uploads/2024/05/Logo.svg)
+<!-- ![image](https://suajornadadedados.com.br/wp-content/uploads/2024/05/Logo.svg) -->
 
 ## Navegação
 
