@@ -1,22 +1,26 @@
 {% docs __overview__ %}
 
-# Essa e a minha doc
+# dbt - Northwind Project
 
-Bem-vindo à documentação gerada automaticamente para o seu projeto DBT!
+Welcome to dbt Northwind project's docs!
 
-<!-- ![image](https://suajornadadedados.com.br/wp-content/uploads/2024/05/Logo.svg) -->
+## Overview
 
-## Navegação
+This project is a part of [Luciano Vasconcelo's course on Data Engineering](https://suajornadadedados.com.br). It's based on the Northwind sample database structure and data provided by Microsoft. The main goal is to apply dbt's features to implement data transformations in a close to real scenario. 
 
-Utilize as abas de navegação do Projeto e do Banco de Dados no lado esquerdo para explorar os modelos no seu projeto.
+Here's what the Northwind database looks like in it's raw form:
+![image](pics/northwind.png)
 
-## Exploração de Grafos
 
-Clique no ícone azul no canto inferior direito para visualizar o grafo de linhagem dos seus modelos.
+## Data Transformation using dbt
 
-## Mais Informações
+This project is set up on a PostgresSQL database mounted on an AWS RDS instance. All transformation steps are executed with dbt-core. Finally, the dashboards will be provided throw Streamlit.
 
-This is a home page for my dbt project.
+There are 3 layers of data: (i) the staging, which is close to it's raw form; (ii) the intermediate, which is segregated by business area; and (iii) the marts that are ready for the consumers. 
+
+![image](pics/excalidraw.png)
+
+## Further information
 
 Link to [Github](<https://github.com/amenoarnt/new-project-dbt-northwind/tree/main>)
 
