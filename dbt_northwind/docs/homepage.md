@@ -20,6 +20,13 @@ There are 3 layers of data: (i) the staging, which is close to it's raw form; (i
 
 ![image](https://raw.githubusercontent.com/amenoarnt/new-project-dbt-northwind/main/dbt_northwind/pics/excalidraw.png)
 
+
+And here's the projects lineage:
+
+![image](https://raw.githubusercontent.com/amenoarnt/new-project-dbt-northwind/main/dbt_northwind/pics/dbt-northwind-lineage.png)
+
+
+
 ## Further information
 
 Link to [Github](<https://github.com/amenoarnt/new-project-dbt-northwind/tree/main>)

@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "new-project-dbt-northwind"
+version = "0.1.0"
+description = ""
+authors = ["amenoarnt <107896726+amenoarnt@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+dbt-postgres = "^1.8.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

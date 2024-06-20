@@ -1,18 +1,30 @@
-Welcome the dbt-core !
+# dbt - Northwind Project
 
-![Alt text](pics/excalidraw.png)
+Welcome to dbt Northwind project's docs!
 
-### Using the starter project
+## Overview
 
-Try running the following commands:
-- dbt run
-- dbt test
+This project is a part of [Luciano Vasconcelo's course on Data Engineering](https://suajornadadedados.com.br). It's based on the Northwind sample database structure and data provided by Microsoft. The main goal is to apply dbt's features to implement data transformations in a close to real scenario. 
+
+Here's what the Northwind database looks like in it's raw form:
+![image](https://raw.githubusercontent.com/amenoarnt/new-project-dbt-northwind/main/dbt_northwind/pics/northwind.png)
+
+
+## Data Transformation using dbt
+
+This project is set up on a PostgresSQL database mounted on an AWS RDS instance. All transformation steps are executed with dbt-core. Finally, the dashboards will be provided throw Streamlit.
+
+There are 3 layers of data: (i) the staging, which is close to it's raw form; (ii) the intermediate, which is segregated by business area; and (iii) the marts that are ready for the consumers. 
+
+![image](https://raw.githubusercontent.com/amenoarnt/new-project-dbt-northwind/main/dbt_northwind/pics/excalidraw.png)
+
+
+And here's the projects lineage:
+
+![image](https://raw.githubusercontent.com/amenoarnt/new-project-dbt-northwind/main/dbt_northwind/pics/dbt-northwind-lineage.png)
 
 
 
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [chat](https://community.getdbt.com/) on Slack for live discussions and support
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+## Further information
+
+Link to [Github](<https://github.com/amenoarnt/new-project-dbt-northwind/tree/main>)
